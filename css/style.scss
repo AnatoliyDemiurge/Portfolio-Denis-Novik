@@ -79,7 +79,6 @@ html{
                     height:119px;
                     margin-bottom:50px;
                     @media screen and (max-width:767px) {
-                        margin:15px 10px;
                         display:block;
                     }
                     .intro__name{
@@ -95,6 +94,10 @@ html{
                         .intro__plug{
                             display:block;
                             max-width:125px;
+                        }
+                        @media screen and (max-width:767px) {
+                            display:block;
+                            margin-top:23px;
                         }
                     }
                     .intro__ruEng{
@@ -117,10 +120,21 @@ html{
                         }
                     }
                 }
-                .intro__photo{
-                  
+                .intro__photo-pk{
                    max-width:100%;
+                   @media screen and (max-width:767px) {
+                       display:none;
+                   }
                 }
+                .intro__photo-mobile{
+                    margin-top:107px;
+                    width:100%;
+                    padding:0px 40px;
+                    display:none;
+                    @media screen and (max-width:767px) {
+                        display:block;
+                    }
+                 }
             }
             .about{
                 height:506px;
