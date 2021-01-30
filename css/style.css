@@ -114,6 +114,7 @@ html body .intro .intro__info {
 @media screen and (max-width: 767px) {
   html body .intro .intro__info {
     margin: 15px 10px;
+    display: block;
   }
 }
 
@@ -140,6 +141,12 @@ html body .intro .intro__info .intro__ruEng {
   line-height: 20px;
   font-weight: 500;
   margin-top: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  html body .intro .intro__info .intro__ruEng {
+    display: none;
+  }
 }
 
 html body .intro .intro__info .intro__ruEng .intro__link {

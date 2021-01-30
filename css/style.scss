@@ -80,6 +80,7 @@ html{
                     margin-bottom:50px;
                     @media screen and (max-width:767px) {
                         margin:15px 10px;
+                        display:block;
                     }
                     .intro__name{
                         font-size: 47.3392px;
@@ -101,6 +102,9 @@ html{
                         line-height: 20px;
                         font-weight:500;
                         margin-top:70px;
+                        @media screen and (max-width:767px) {
+                            display:none;
+                        }
                         .intro__link{
                             text-decoration:none;
                             .intro__text{
@@ -114,6 +118,7 @@ html{
                     }
                 }
                 .intro__photo{
+                  
                    max-width:100%;
                 }
             }
