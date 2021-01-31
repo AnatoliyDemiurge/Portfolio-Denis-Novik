@@ -26,7 +26,7 @@ html body .header {
 
 @media screen and (max-width: 767px) {
   html body .header {
-    margin: 20px 10px 20px 10px;
+    display: none;
   }
 }
 
@@ -132,6 +132,13 @@ html body .intro .intro__info .intro__name {
   max-width: 118px;
 }
 
+@media screen and (max-width: 767px) {
+  html body .intro .intro__info .intro__name {
+    font-size: 62px;
+    line-height: 79px;
+  }
+}
+
 html body .intro .intro__info .intro__proffesionalData {
   margin-top: 65px;
   font-size: 18px;
@@ -140,7 +147,6 @@ html body .intro .intro__info .intro__proffesionalData {
 
 html body .intro .intro__info .intro__proffesionalData .intro__plug {
   display: block;
-  max-width: 125px;
 }
 
 @media screen and (max-width: 767px) {
@@ -151,6 +157,8 @@ html body .intro .intro__info .intro__proffesionalData .intro__plug {
     -ms-grid-column-span: 3;
     grid-column: 1 / span 3;
     margin-top: 23px;
+    font-size: 28px;
+    line-height: 28px;
   }
 }
 
@@ -192,7 +200,7 @@ html body .intro .intro__photo-pk {
 }
 
 html body .intro .intro__photo-mobile {
-  margin-top: 107px;
+  margin-top: 167px;
   width: 100%;
   padding: 0px 30px;
   display: none;
@@ -205,9 +213,9 @@ html body .intro .intro__photo-mobile {
 }
 
 html body .intro .intro__burger {
-  margin-top: 20px;
-  height: 50px;
-  width: 73px;
+  margin-top: 30px;
+  height: 40px;
+  width: 63px;
   position: relative;
   display: none;
 }
@@ -224,14 +232,14 @@ html body .intro .intro__burger {
 
 @media screen and (max-width: 400px) {
   html body .intro .intro__burger {
-    margin-left: 100px;
+    margin-left: 80px;
   }
 }
 
 html body .intro .intro__burger .intro__line {
   display: block;
   width: 100%;
-  height: 8px;
+  height: 6px;
   background-color: black;
   position: absolute;
   left: 0;
