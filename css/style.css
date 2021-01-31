@@ -218,6 +218,12 @@ html body .intro .intro__burger {
     -ms-grid-column-span: 1;
     grid-column: 3 / span 1;
     display: block;
+    margin-left: 140px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html body .intro .intro__burger {
     margin-left: 100px;
   }
 }

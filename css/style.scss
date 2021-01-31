@@ -149,6 +149,9 @@ html{
                     @media screen and (max-width:767px) {
                         grid-column:3 / span 1;
                         display:block;
+                        margin-left:140px;
+                    }
+                    @media screen and (max-width:400px) {
                         margin-left:100px;
                     }
                     .intro__line{
