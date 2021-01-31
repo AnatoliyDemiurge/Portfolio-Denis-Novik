@@ -410,18 +410,12 @@ html body .about .about__info .about__text-3 .about__text-subtext-3 {
 }
 
 html body .skills {
-  height: 610px;
+  margin-bottom: 112px;
 }
 
 @media screen and (max-width: 767px) {
   html body .skills {
-    height: 610px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  html body .skills {
-    height: 1210px;
+    margin-bottom: 98px;
   }
 }
 
@@ -491,6 +485,12 @@ html body .portfolio .portfolio__title {
   margin-bottom: 47px;
 }
 
+@media screen and (max-width: 767px) {
+  html body .portfolio .portfolio__title {
+    padding-top: 81px;
+  }
+}
+
 html body .portfolio .portfolio__block {
   text-align: center;
   margin-bottom: 99px;
@@ -540,10 +540,24 @@ html body .footer .footer__info .footer__title {
   line-height: 42px;
 }
 
+@media screen and (max-width: 767px) {
+  html body .footer .footer__info .footer__title {
+    font-size: 48px;
+    line-height: 54px;
+  }
+}
+
 html body .footer .footer__info .footer__subtitle {
   margin-bottom: 29px;
   font-size: 18px;
   line-height: 22px;
+}
+
+@media screen and (max-width: 767px) {
+  html body .footer .footer__info .footer__subtitle {
+    font-size: 22px;
+    line-height: 25px;
+  }
 }
 
 html body .footer .footer__info .footer__subtitle .footer__plug {
@@ -559,6 +573,13 @@ html body .footer .footer__info .footer__send {
   padding: 8px 32px 8px 32px;
   border-radius: 100px;
   margin-bottom: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  html body .footer .footer__info .footer__send {
+    padding: 8px 92px 8px 92px;
+    font-size: 20px;
+  }
 }
 
 html body .footer .footer__info .footer__list {
@@ -588,6 +609,13 @@ html body .footer .footer__info .footer__likeMe {
   line-height: 17px;
   color: #828282;
   padding-bottom: 123px;
+}
+
+@media screen and (max-width: 767px) {
+  html body .footer .footer__info .footer__likeMe {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 
 html body .footer .footer__info .footer__likeMe .footer__plug {
