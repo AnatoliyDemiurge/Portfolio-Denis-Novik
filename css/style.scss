@@ -80,8 +80,10 @@ html{
                     margin-bottom:50px;
                     flex-wrap:wrap;
                     @media screen and (max-width:767px) {
-                        display:block;
-                        padding-left:30px;
+                        display:grid;
+                        padding:0px 30px;
+                        grid-template-columns:repeat(3,1fr);
+                        grid-template-rows:1fr 1fr;
                     }
                     .intro__name{
                         font-size: 47.3392px;
@@ -98,7 +100,8 @@ html{
                             max-width:125px;
                         }
                         @media screen and (max-width:767px) {
-                            display:block;
+                            grid-row:2;
+                            grid-column:1 / span 3;
                             margin-top:23px;
                         }
                     }
@@ -138,12 +141,15 @@ html{
                     }
                  }
                 .intro__burger{
+                    margin-top:20px;
                     height:50px;
                     width:73px;
                     position:relative;
                     display:none;
                     @media screen and (max-width:767px) {
+                        grid-column:3 / span 1;
                         display:block;
+                        margin-left:100px;
                     }
                     .intro__line{
                         display:block;

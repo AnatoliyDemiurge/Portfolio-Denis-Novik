@@ -115,8 +115,13 @@ html body .intro .intro__info {
 
 @media screen and (max-width: 767px) {
   html body .intro .intro__info {
-    display: block;
-    padding-left: 30px;
+    display: -ms-grid;
+    display: grid;
+    padding: 0px 30px;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
   }
 }
 
@@ -140,7 +145,11 @@ html body .intro .intro__info .intro__proffesionalData .intro__plug {
 
 @media screen and (max-width: 767px) {
   html body .intro .intro__info .intro__proffesionalData {
-    display: block;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
     margin-top: 23px;
   }
 }
@@ -196,6 +205,7 @@ html body .intro .intro__photo-mobile {
 }
 
 html body .intro .intro__burger {
+  margin-top: 20px;
   height: 50px;
   width: 73px;
   position: relative;
@@ -204,7 +214,11 @@ html body .intro .intro__burger {
 
 @media screen and (max-width: 767px) {
   html body .intro .intro__burger {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / span 1;
     display: block;
+    margin-left: 100px;
   }
 }
 
