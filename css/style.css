@@ -109,11 +109,14 @@ html body .intro .intro__info {
           justify-content: space-between;
   height: 119px;
   margin-bottom: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 @media screen and (max-width: 767px) {
   html body .intro .intro__info {
     display: block;
+    padding-left: 30px;
   }
 }
 
@@ -182,7 +185,7 @@ html body .intro .intro__photo-pk {
 html body .intro .intro__photo-mobile {
   margin-top: 107px;
   width: 100%;
-  padding: 0px 40px;
+  padding: 0px 30px;
   display: none;
 }
 
@@ -190,6 +193,50 @@ html body .intro .intro__photo-mobile {
   html body .intro .intro__photo-mobile {
     display: block;
   }
+}
+
+html body .intro .intro__burger {
+  height: 50px;
+  width: 73px;
+  position: relative;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  html body .intro .intro__burger {
+    display: block;
+  }
+}
+
+html body .intro .intro__burger .intro__line {
+  display: block;
+  width: 100%;
+  height: 8px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  -webkit-transition: .3s all linear;
+  transition: .3s all linear;
+}
+
+html body .intro .intro__burger .intro__line-1 {
+  top: 0;
+}
+
+html body .intro .intro__burger .intro__line-2 {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+html body .intro .intro__burger .intro__line-3 {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+html body .intro .intro__burger .intro__line-4 {
+  bottom: 0;
 }
 
 html body .about {
