@@ -81,6 +81,7 @@ html body .header .header__nav .header__list .header__item {
 }
 
 html body .header .header__nav .header__list .header__item .header__link {
+  font-family: "Gilroy-Medium";
   text-decoration: none;
   font-size: 18px;
   line-height: 22px;
@@ -142,10 +143,12 @@ html body .header .header__nav .header__ruEng .header__link-translate .header__t
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   color: #070707;
+  font-family: "Gilroy-Bold";
 }
 
 html body .header .header__nav .header__ruEng .header__link-translate .header__ru {
   color: #828282;
+  font-family: "Gilroy-Bold";
 }
 
 @media screen and (max-width: 767px) {
@@ -230,6 +233,7 @@ html body .intro .intro__info {
 }
 
 html body .intro .intro__info .intro__name {
+  font-family: "Gilroy-Bold";
   font-size: 47.3392px;
   line-height: 59px;
   font-weight: 500;
@@ -247,9 +251,11 @@ html body .intro .intro__info .intro__proffesionalData {
   margin-top: 65px;
   font-size: 18px;
   line-height: 22px;
+  font-family: "Gilroy-Medium";
 }
 
 html body .intro .intro__info .intro__proffesionalData .intro__plug {
+  font-family: "Gilroy-Medium";
   display: block;
 }
 
@@ -284,12 +290,14 @@ html body .intro .intro__info .intro__ruEng .intro__link {
 }
 
 html body .intro .intro__info .intro__ruEng .intro__link .intro__text {
+  font-family: "Gilroy-Bold";
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   color: #070707;
 }
 
 html body .intro .intro__info .intro__ruEng .intro__link .intro__ru {
+  font-family: "Gilroy-Bold";
   color: #828282;
 }
 
@@ -397,12 +405,14 @@ html body .about .about__info {
 }
 
 html body .about .about__info .about__title {
+  font-family: "Gilroy-Bold";
   font-size: 34px;
   line-height: 42px;
   margin-bottom: 18px;
 }
 
 html body .about .about__info .about__text {
+  font-family: "Gilroy-Medium";
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 44px;
@@ -422,10 +432,12 @@ html body .about .about__info .about__text {
 }
 
 html body .about .about__info .about__text-1 .about__text-subtext-1 {
+  font-family: "Gilroy-Medium";
   display: block;
 }
 
 html body .about .about__info .about__text-2 .about__text-subtext-2 {
+  font-family: "Gilroy-Medium";
   display: block;
 }
 
@@ -434,6 +446,7 @@ html body .about .about__info .about__text-3 {
 }
 
 html body .about .about__info .about__text-3 .about__text-subtext-3 {
+  font-family: "Gilroy-Medium";
   display: block;
 }
 
@@ -448,6 +461,7 @@ html body .skills {
 }
 
 html body .skills .skills__title {
+  font-family: "Gilroy-Bold";
   font-size: 34px;
   line-height: 42px;
   text-align: center;
@@ -462,6 +476,7 @@ html body .skills .skills__title {
 }
 
 html body .skills .skills__subtitle {
+  font-family: "Gilroy-Medium";
   font-size: 18px;
   line-height: 22px;
   text-align: center;
@@ -508,6 +523,7 @@ html body .portfolio {
 }
 
 html body .portfolio .portfolio__title {
+  font-family: "Gilroy-Bold";
   font-size: 34px;
   line-height: 42px;
   padding-top: 112px;
@@ -542,6 +558,7 @@ html body .portfolio .portfolio__block .portfolio__pic {
 }
 
 html body .portfolio .portfolio__block .portfolio__link {
+  font-family: "Gilroy-Medium";
   font-size: 18px;
   line-height: 22px;
   color: #070707;
@@ -575,6 +592,7 @@ html body .footer .footer__info .footer__title {
   margin-bottom: 20px;
   font-size: 34px;
   line-height: 42px;
+  font-family: "Gilroy-Bold";
 }
 
 @media screen and (max-width: 767px) {
@@ -585,6 +603,7 @@ html body .footer .footer__info .footer__title {
 }
 
 html body .footer .footer__info .footer__subtitle {
+  font-family: "Gilroy-Medium";
   margin-bottom: 29px;
   font-size: 18px;
   line-height: 22px;
@@ -598,6 +617,7 @@ html body .footer .footer__info .footer__subtitle {
 }
 
 html body .footer .footer__info .footer__subtitle .footer__plug {
+  font-family: "Gilroy-Medium";
   display: block;
 }
 
@@ -642,6 +662,7 @@ html body .footer .footer__info .footer__list .footer__dribble {
 }
 
 html body .footer .footer__info .footer__likeMe {
+  font-family: "Gilroy-Medium";
   font-size: 14px;
   line-height: 17px;
   color: #828282;
@@ -657,5 +678,6 @@ html body .footer .footer__info .footer__likeMe {
 
 html body .footer .footer__info .footer__likeMe .footer__plug {
   display: block;
+  font-family: "Gilroy-Medium";
 }
 /*# sourceMappingURL=style.css.map */
