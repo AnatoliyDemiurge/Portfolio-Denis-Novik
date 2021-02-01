@@ -38,6 +38,9 @@ html{
                         transform:translateX(100%);
                         transition:.3s all linear;
                     }
+                    @media screen and (max-width:500px) {
+                        height:100vh;
+                    }
                     .header__list{
                         display:flex;
                         list-style:none;

@@ -46,6 +46,12 @@ html body .header .header__nav {
   }
 }
 
+@media screen and (max-width: 500px) {
+  html body .header .header__nav {
+    height: 100vh;
+  }
+}
+
 html body .header .header__nav .header__list {
   display: -webkit-box;
   display: -ms-flexbox;
