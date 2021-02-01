@@ -159,6 +159,14 @@ html body .header .header__nav .header__ruEng .header__link-translate .header__r
   }
 }
 
+@media screen and (max-width: 500px) {
+  html body .header .header__nav .header__close {
+    top: 20px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   html body .header .header__nav .header__close .header__line {
     width: 100%;

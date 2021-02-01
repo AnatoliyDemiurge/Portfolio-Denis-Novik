@@ -116,6 +116,11 @@ html{
                         right:30px;
                         z-index:11;
                         }
+                        @media screen and (max-width:500px) {
+                            top:20px;
+                            width:30px;
+                            height:30px;
+                        }
                         .header__line{
                             @media screen and (max-width:767px) {
                             width:100%;
